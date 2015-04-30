@@ -7,14 +7,14 @@ module.exports = function(grunt) {
     simplemocha: {
       dev: {
         src: ['test/**/*.js']
-      },
+      }
     },
     
     jshint: {
       dev: {
         src: ['Gruntfile.js', 'greet*.js', 'test/*.js']
       },
-      options: {
+      options: 
         jshintrc: true 
       }
     },
